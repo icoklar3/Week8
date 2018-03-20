@@ -64,28 +64,33 @@
               
         <div>
         <label><b>Email</b></label><br>
-        <input type="text" name="reg_email" placeholder="Enter Email" required>
+        <input type="Email" name="reg_email" placeholder="Enter Email" required>
       </div>
       <div>
 
       <div>
         <label><b>Phone</b></label><br>
-        <input type="Number" name="reg_phone" placeholder="Enter Phone Number" required>
+        <input type="tel" name="reg_phone" placeholder="Enter Phone Number" required>
       </div>
-      <div>
+      
 
         <div>
         <label><b>Birthday</b></label><br>
-        <input type="Number" name="reg_bday" placeholder="Enter Birthday" required>
+        <input type="date" name="reg_bday" placeholder="Enter Birthday" required>
       </div>
       <div>
 
-        <div>
-        <label><b>Gender</b></label><br>
-        <input type="text" name="reg_gender" placeholder="Enter Gender" required>
-      </div>
-      <div>
 <br>
+
+
+<div>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+</div>
+
+<br>
+
         <button type="submit">Login</button>     
       </div>
     </form>
